@@ -39,4 +39,9 @@ function isBirthdayLucky(){
 }
 }
 
+
 checkBtn.addEventListener("click",isBirthdayLucky);
+
+closeBtn.addEventListener("click",()=>{
+    document.getElementById("alert").style.display = "none";
+});

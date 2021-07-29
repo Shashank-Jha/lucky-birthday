@@ -26,7 +26,8 @@ nav {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-header {
+#alert {
+  display: block;
   margin-top: 1rem;
   font-size: larger;
   font-weight: bold;
