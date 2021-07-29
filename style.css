@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+:root {
+  --primary-color: #ea3866;
+  --secondary-color: #c1cfd6;
+}
+
+body {
+  background-color: whitesmoke;
+}
+.nav {
+  text-align: center;
+}
+nav {
+  padding: 1rem;
+
+  font-size: xx-large;
+  font-weight: 600;
+  color: #2c2c2c;
+
+  background: rgba(234, 56, 102, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+header {
+  margin-top: 1rem;
+  font-size: larger;
+  font-weight: bold;
+  color: var(--primary-color);
+  padding: 1rem;
+}
+#close {
+  color: var(--primary-color);
+  background-color: whitesmoke;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  padding-left: 2rem;
+  font-weight: bolder;
+}
+.alert {
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  border-color: var(--primary-color);
+  border-style: solid;
+  padding: 1rem;
+}
+strong {
+  color: var(--primary-color);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+
+  display: block;
+  margin: auto;
+}
+
+img {
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.right-section {
+  padding: 2rem;
+
+  background: rgba(234, 56, 102, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  max-width: 400px;
+  min-width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 0.3rem;
+
+  margin-bottom: 3rem;
+}
+
+.right-section label {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 300px;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.main-btn {
+  width: 100px;
+  padding: 1rem;
+  border-style: none;
+  font: inherit;
+  font-weight: bold;
+  font-size: large;
+  color: whitesmoke;
+  background: var(--primary-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#giffy {
+  display: none;
+  padding-top: 2rem;
+}
+
+#giffy img {
+  width: 300px;
+}
+footer {
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  font-weight: bold;
+  font-size: medium;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 1rem;
+  text-align: center;
+}
